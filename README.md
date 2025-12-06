@@ -50,8 +50,8 @@ This is a full-stack web application built using **Flask (Python)** for the back
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/AlexKrumheuer/Social-Media-with-To-do-list.git
+   cd Social-Media-with-To-do-list/
    ```
 
 2. **Create a virtual environment (Windows):**
