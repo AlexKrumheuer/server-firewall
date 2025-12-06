@@ -12,7 +12,7 @@ bp = Blueprint('login', __name__, url_prefix='/login')#Separa a rota /login
 @bp.route('/', methods=['GET', 'POST'])
 def index():
     from app import limiter
-    #@limiter.limit("5 per minute")
+    @limiter.limit("5 per minute")
     def login_func():
         mensagem = ""
         if request.method == 'POST': #Get user data
