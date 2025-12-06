@@ -113,7 +113,7 @@ function removerTarefa(event) {
     const taskContainer = event.target.closest(".child_task--container")
     const id = taskContainer.dataset.id
 
-    fetch("/dashboard/remover_tarefa", {
+    fetch("/dashboard/remove_task", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id: id })
